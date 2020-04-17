@@ -5,8 +5,8 @@
 % Daniel Zaldivar, Marco Pérez-Cisneros, Loke Kok Foong
 % University of Guadalajara (UdG)
 
-% Rodríguez-Esparza, E., Zanella-Calzada, L. A., Oliva, D., Heidari, 
-% A. A., Zaldivar, D., Pérez-Cisneros, M., & Foong, L. K. (2020). 
+% Rodriguez-Esparza, E., Zanella-Calzada, L. A., Oliva, D., Heidari, 
+% A. A., Zaldivar, D., Perez-Cisneros, M., & Foong, L. K. (2020). 
 % An Efficient Harris Hawks-inspired Image Segmentation Method. 
 % Expert Systems with Applications, 113428.
 
@@ -167,11 +167,11 @@ while t<T
     CNVG(t)=Rabbit_Energy;
 end
 
-%% Segmentacion de la imagen
+%% Image segmentation
 Ith=MultiTresh(I,Rabbit_Location);
 imshow(Ith)
 
-%% Prueba la segmentacion
+%% Evaluation of the segmentation
 
 %PSNR: Peak Signal to Noise Ratio
 PSNR=psnr(Ith, I)

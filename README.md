@@ -1,5 +1,7 @@
 # MCET-HHO
- Multilevel thresholding segmentation method
+
+We provided the [Minimum Cross Entropy Thresholding - Harris Hawks Optimization (MCET-HHO)](https://www.sciencedirect.com/science/article/abs/pii/S0957417420302529) for multilevel thresholding segmentation. This method has been tested over a benchmark set of reference images, with the Berkeley segmentation database, and with medical images of digital mammography.
+
  
  
  # Citation

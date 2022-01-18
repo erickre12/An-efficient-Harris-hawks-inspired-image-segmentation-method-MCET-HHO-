@@ -1,4 +1,4 @@
-# MCET-HHO
+# An efficient Harris hawks-inspired image segmentation method (MCET-HHO)
 
 An efficient Harris hawks-inspired image segmentation method
 
